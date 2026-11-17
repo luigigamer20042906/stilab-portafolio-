@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 840" role="img" aria-label="Ilustración de una pesa">
+ <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#282c2a"/><stop offset="1" stop-color="#080a09"/></linearGradient></defs>
+ <rect width="800" height="840" fill="url(#g)"/><g stroke="#546156" stroke-opacity=".28" stroke-width="2"><path d="M0 160H800M0 320H800M0 480H800M0 640H800M160 0V840M320 0V840M480 0V840M640 0V840"/></g>
+ <g fill="none" stroke="#e0e9bc" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"><path d="M210 350v130M275 290v250M525 290v250M590 350v130M275 417h250"/></g><g stroke="#c9da62" stroke-width="9"><path d="M400 190v80M360 230h80M400 565v85M358 607h84"/></g><text x="52" y="770" fill="#e1e4db" font-size="52" font-family="Arial Black,Arial" font-weight="900" letter-spacing="-3">MOVE / 001</text>
+</svg>

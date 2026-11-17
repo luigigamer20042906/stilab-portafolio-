@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="STILab® — Portafolio personal de Luis Zambrano. Diseño gráfico, identidad visual, fotografía, tipografía y diseño editorial en Cuenca, Ecuador.">
+  <meta property="og:title" content="STILab® — Luis Zambrano | Portafolio">
+  <meta property="og:description" content="Una selección de proyectos gráficos, fotografía y dirección visual.">
+  <meta property="og:image" content="assets/album-art.webp">
+  <title>STILab® — Luis Zambrano / Portfolio</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="preload" href="assets/logo-stilab-transparente.png" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script src="projects-data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body data-theme="dark">
+  <div class="intro-screen" id="introScreen" aria-hidden="true"><span>STILab<sup>®</sup></span><small>LUIS ZAMBRANO — SELECTED WORKS</small></div>
+  <header class="site-header" id="siteHeader">
+    <nav class="header-group nav-left" aria-label="Exploración de proyectos">
+      <a href="#timeline" data-route="timeline">TIMELINE</a>
+      <a href="#works" data-route="works">PROYECTOS</a>
+      <a href="#index" data-route="index">ÍNDICE</a>
+    </nav>
+    <a href="#timeline" class="header-logo" aria-label="STILab: inicio"><img src="assets/logo-stilab-transparente.png" alt="STILab" width="104" height="38"></a>
+    <nav class="header-group nav-right" aria-label="Información personal">
+      <a href="#archive" data-route="archive">ARCHIVO</a>
+      <a href="#about" data-route="about">SOBRE MÍ</a>
+      <a href="#hobbies" data-route="hobbies">HOBBIES</a>
+      <a href="#contact" data-route="contact">CONTACTO</a>
+    </nav>
+    <div class="header-controls">
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Cambiar entre modo oscuro y claro" title="Cambiar tema">◐</button>
+      <button id="menuToggle" class="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="mobileMenu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true" inert>
+    <div class="mobile-menu-label">ÍNDICE DEL SITIO / 2026</div>
+    <a href="#timeline">01 <strong>TIMELINE</strong><span>↗</span></a>
+    <a href="#works">02 <strong>PROYECTOS</strong><span>↗</span></a>
+    <a href="#index">03 <strong>ÍNDICE</strong><span>↗</span></a>
+    <a href="#archive">04 <strong>ARCHIVO</strong><span>↗</span></a>
+    <a href="#about">05 <strong>SOBRE MÍ</strong><span>↗</span></a>
+    <a href="#hobbies">06 <strong>HOBBIES</strong><span>↗</span></a>
+    <a href="#contact">07 <strong>CONTACTO</strong><span>↗</span></a>
+    <small>LUIS ZAMBRANO / CUENCA, ECUADOR</small>
+  </div>
+  <main id="app" tabindex="-1"></main>
+  <footer class="site-footer" id="footer">
+    <div class="footer-layout">
+      <div class="foot-brand"><img src="assets/logo-stilab-transparente.png" alt="STILab"><p>DISEÑO GRÁFICO, FOTOGRAFÍA<br>Y EXPERIMENTACIÓN VISUAL.</p></div>
+      <div class="foot-nav"><span>(NAVEGACIÓN)</span><a href="#timeline">TIMELINE</a><a href="#works">PROYECTOS</a><a href="#index">ÍNDICE</a><a href="#archive">ARCHIVO</a><a href="#about">SOBRE MÍ</a><a href="#hobbies">HOBBIES</a></div>
+      <div class="foot-social"><span>(ENCUÉNTRAME)</span><a href="mailto:Luisz@stillab.studio">EMAIL ↗</a><a href="https://www.instagram.com/lzambrano_ph/" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a><a href="#contact">CONTACTO ↗</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 LUIS ZAMBRANO — STILab®</span><span>DISEÑADO PARA EXPLORAR / ECUADOR</span><a href="#timeline">VOLVER ARRIBA ↑</a></div>
+  </footer>
+</body>
+</html>
